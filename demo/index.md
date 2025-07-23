@@ -3,10 +3,8 @@ title: The Monospace Web
 subtitle: A minimalist design exploration
 author: Oskar Wickström
 author-url: "https://wickstrom.tech"
-date: 2024-08-26
 lang: en
 toc-title: Contents
-version: v0.1.1
 ---
 
 ## Introduction
@@ -132,6 +130,14 @@ And inputs:
 <label>First name <input type="text" placeholder="Placeholder..." /></label>
 <label>Last name <input type="text" placeholder="Text goes here..." /></label>
 <label>Age <input type="text" value="30" /></label>
+</form>
+
+And radio buttons:
+
+<form class="grid">
+<label><input name="radio" type="radio" /> Option #1</label>
+<label><input name="radio" type="radio" /> Option #2</label>
+<label><input name="radio" type="radio" /> Option #3</label>
 </form>
 
 ## Grids

@@ -5,10 +5,9 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Oskar Wickström" />
-  <meta name="dcterms.date" content="2024-08-26" />
   <title>The Monospace Web</title>
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="src/reset.css" />
+  <link rel="stylesheet" href="src/index.css" />
 </head>
 <body>
 <table class="header">
@@ -18,11 +17,11 @@
       <span class="subtitle">A minimalist design exploration</span>
     </td>
     <th>Version</th>
-    <td class="width-min">v0.1.1</td>
+    <td class="width-min">v0.1.5</td>
   </tr>
   <tr>
     <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">2024-08-26</time></td>
+    <td class="width-min"><time style="white-space: pre;">2025-01-25</time></td>
   </tr>
   <tr>
     <th class="width-min">Author</th>
@@ -61,7 +60,7 @@ responsive, shrinking in character-sized steps. Standard elements should
 <em>just work</em>, at least that’s the goal. It’s semantic HTML,
 rendered as if we were back in the 70s.</p>
 <p>All right, but is this even a good idea? It’s a technical and
-creative challenge and I like the aesthetic. If you’d like to use it,
+creative challenge and I like the aestethic. If you’d like to use it,
 feel free to fork or copy the bits you need, respecting the license. I
 might update it over time with improvements and support for more
 standard elements.</p>
@@ -203,6 +202,12 @@ Save
 name <input type="text" placeholder="Text goes here..." /></label>
 <label>Age <input type="text" value="30" /></label>
 </form>
+<p>And radio buttons:</p>
+<form class="grid">
+<label><input name="radio" type="radio" /> Option #1</label>
+<label><input name="radio" type="radio" /> Option #2</label>
+<label><input name="radio" type="radio" /> Option #3</label>
+</form>
 <h2 id="grids">Grids</h2>
 <p>Add the <code>grid</code> class to a container to divide up the
 horizontal space evenly for the cells. Note that it maintains the
@@ -314,6 +319,6 @@ href="https://github.com/owickstrom/the-monospace-web">github.com/owickstrom/the
 href="https://x.com/usgraphics">U.S. Graphics Company</a> for all the
 inspiration.</p>
   <div class="debug-grid"></div>
-  <script src="index.js"></script>
+  <script src="src/index.js"></script>
 </body>
 </html>
